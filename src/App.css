@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+  scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section#hero {
+  background-image: url('https://raw.githubusercontent.com/prazzdev/porttest/main/src/assets/image/hero2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1#hero, h3#hero {
+  text-shadow: 2px 2px 4px #000;
+}
+
+section#Desc1 {
+  background-image: url('https://raw.githubusercontent.com/prazzdev/porttest/main/src/assets/image/desc2.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+}
+
+section#Desc1 > div > div#Desc1Text,
+section#Desc2 > div > div:nth-child(2) > div#Desc2Text,
+section#Desc2 > div > div#Desc2Text > div > div:nth-child(1) {
+  background-color: rgba(0, 173, 181, .7);
+}
+
+section#Desc1 > div > div, section#Desc2 > div > div {
   color: white;
+  text-shadow: 2px 1px 3px #000;
+  font-weight: lighter;
 }
 
-.App-link {
-  color: #61dafb;
+section#Desc1 > div > div > div > img#Desc1Img {
+  filter: drop-shadow(10px 5px 28px #000)
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section#Desc2 {
+  background-image: url('https://raw.githubusercontent.com/prazzdev/porttest/main/src/assets/image/desc3.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
 }
