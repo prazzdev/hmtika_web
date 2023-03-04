@@ -15,7 +15,6 @@ const Home = () => {
             <Desc2 />
             <Desc3 />
             <Footer />
-            <ToTop />
         </>
     )
 }

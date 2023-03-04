@@ -6,6 +6,7 @@ import Team from './Pages/Team';
 import Event from './Pages/Event';
 import Info from './Pages/Info';
 import Gallery from './Pages/Gallery';
+import NotFound from './Pages/NotFound';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/event" element={<Event />} />
         <Route path="/info" element={<Info />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
     </Router>
   );

@@ -7,10 +7,8 @@ const logo = './image/logo.webp'
 const Header = () => {
     const [navMenu, setNavMenu] = useState(false)
     const navigate = useNavigate()
-    const hamburger = document.getElementById('hamburger')
     const NavigationMenu = () => {
         setNavMenu(!navMenu)
-        console.log(navMenu)
     }
 
     return (
