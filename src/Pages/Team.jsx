@@ -8,9 +8,11 @@ const Team = () => {
         <Header />
         <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
             <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
-                <h1 className="text-4xl font-bold leading-none text-center sm:text-5xl mb-3">Struktur Kepengurusan HMTIKA</h1>
+                <h1 className="text-xl lg:text-4xl font-bold leading-none text-center mb-1 lg:mb-3">
+                    Struktur Kepengurusan HMTIKA    
+                </h1>
                 <p className="p-2 text-sm font-medium tracking-wider text-center uppercase">Periode 2023/2024</p>
-                <div className="flex flex-row flex-wrap justify-center mt-20">
+                <div className="flex flex-row flex-wrap justify-center mt-10 lg:mt-20">
                     <ProfileBox 
                         name="Arrazzaq Panca Putra" 
                         position="Leader" 
