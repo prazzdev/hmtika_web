@@ -5,19 +5,19 @@ const Hero = () => {
     return (
         <section id="hero" className="flex flex-col justify-center items-center bg-red-300 min-h-[600px]">
             <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl text-gray-100">
-                <h1 id="hero" className="text-4xl font-bold leading-none mb-4 stroke-cyan-500">
+                <h1 id="hero" className="text-2xl lg:text-4xl font-bold leading-none mb-4 stroke-cyan-500">
                     <Typewriter
                         options={{
-                            strings: ['Himpunan Mahasiswa Informatika'],
+                            strings: ['Himpunan Mahasiswa Informatika','Informatics Engineering'],
                             autoStart: true,
                             loop: true,
                             delay: 80,
                             cursor: ';',
-                            pauseFor: 20000
+                            pauseFor: 4000
                         }}
                     />
                 </h1>
-                <h3 id="hero" className="text-2xl font-semibold mb-8">
+                <h3 id="hero" className="text-lg lg:text-2xl font-semibold mb-8">
                     <Typewriter
                         options={{
                             strings: ['STIMIK Tunas Bangsa Banjarnegara'],
@@ -36,7 +36,7 @@ const Hero = () => {
                     <img 
                         src={arrowDown} 
                         alt="direct to down"
-                        className="w-4"
+                        className="w-4 lg:w-6"
                     />
                 </a>
             </div>
