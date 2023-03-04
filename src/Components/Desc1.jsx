@@ -38,7 +38,7 @@ const Desc1 = () => {
                     </div>
                 </div>
                 <div className="lg:w-1/2 xl:w-3/5 dark:bg-gray-800">
-                    <div className="flex items-center justify-center m-20 lg:m-16 rounded-full overflow-hidden bg-red-400">
+                    <div className="flex items-center justify-center m-20 lg:m-24 rounded-full overflow-hidden bg-red-400">
                         <img 
                             src={logo} 
                             alt=""

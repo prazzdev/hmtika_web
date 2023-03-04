@@ -6,7 +6,7 @@ const About = () => {
         <>
         <Header />
         <section 
-            className="container mt-8"
+            className="container mt-8 mx-auto"
             data-aos="fade-in"
             data-aos-duration="1000"
             data-aos-delay="300"
