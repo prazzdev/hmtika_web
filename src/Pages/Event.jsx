@@ -6,7 +6,14 @@ const Event = () => {
     return(
         <>
         <Header />
-        <div id="container" className="flex justify-around items-center flex-wrap p-4 lg:p-8">
+        <div 
+            id="container" 
+            className="flex justify-around items-center flex-wrap p-4 lg:p-8"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out"
+            >
             <Card 
                 thumbnail="https://source.unsplash.com/random/300x300/?1"
                 category="Training Programming"

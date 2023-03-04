@@ -3,9 +3,22 @@ const arrowDown = './image/arrow-down.svg'
 
 const Hero = () => {
     return (
-        <section id="hero" className="flex flex-col justify-center items-center bg-red-300 min-h-[600px]">
-            <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl text-gray-100">
-                <h1 id="hero" className="text-2xl lg:text-4xl font-bold leading-none mb-4 stroke-cyan-500">
+        <section 
+            id="hero" 
+            className="flex flex-col justify-center items-center min-h-[600px]"
+            >
+            <div 
+                className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl text-gray-100"
+                data-aos="fade-in"
+                data-aos-duration="1000"
+                data-aos-delay="300"
+                data-aos-easing="ease-in-out"
+                >
+                <h1 
+                    id="hero" 
+                    className="text-2xl lg:text-4xl font-bold leading-none mb-4 stroke-cyan-500"
+                    data-aos="zoom-in"
+                    >
                     <Typewriter
                         options={{
                             strings: ['Himpunan Mahasiswa Informatika','Informatics Engineering'],
@@ -17,7 +30,11 @@ const Hero = () => {
                         }}
                     />
                 </h1>
-                <h3 id="hero" className="text-lg lg:text-2xl font-semibold mb-8">
+                <h3 
+                    id="hero" 
+                    className="text-lg lg:text-2xl font-semibold mb-8"
+                    data-aos="zoom-in"
+                    >
                     <Typewriter
                         options={{
                             strings: ['STIMIK Tunas Bangsa Banjarnegara'],
@@ -32,6 +49,8 @@ const Hero = () => {
                 <a 
                     href="#Desc1"
                     className="bg-[#00ADB5] p-2 rounded-lg shadow-md"
+                    data-aos="flip-up"
+                    data-aos-delay="1000"
                 >
                     <img 
                         src={arrowDown} 

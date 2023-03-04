@@ -5,7 +5,13 @@ const About = () => {
     return(
         <>
         <Header />
-        <section className="container mt-8">
+        <section 
+            className="container mt-8"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out"
+            >
             <figure className="text-center">
                 <img 
                     src="./image/logo.webp" 

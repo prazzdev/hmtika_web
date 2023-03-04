@@ -5,7 +5,13 @@ const Info = () => {
     return(
         <>
         <Header />
-        <section className="dark:bg-gray-800 dark:text-gray-100">
+        <section 
+            className="dark:bg-gray-800 dark:text-gray-100"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out"
+            >
             <div className="container px-4 py-8 lg:py-16 mx-auto space-y-8 lg:max-w-3xl">
                 <h2 className="font-bold text-lg lg:text-3xl">Agenda Kegiatan</h2>
                 <div className="space-y-8">

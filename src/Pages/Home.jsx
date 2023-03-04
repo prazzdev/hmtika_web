@@ -4,7 +4,6 @@ import Desc3 from "../Components/Desc3"
 import Footer from "../Components/Footer"
 import Header from "../Components/Header"
 import Hero from "../Components/Hero"
-import ToTop from "../Components/Partials/ToTop"
 
 const Home = () => {
     return (

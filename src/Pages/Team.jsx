@@ -6,7 +6,13 @@ const Team = () => {
     return (
         <>
         <Header />
-        <section className="py-6 dark:bg-gray-800 dark:text-gray-100">
+        <section 
+            className="py-6 dark:bg-gray-800 dark:text-gray-100"
+            data-aos="fade-in"
+            data-aos-duration="1000"
+            data-aos-delay="300"
+            data-aos-easing="ease-in-out"
+            >
             <div className="container flex flex-col items-center justify-center p-4 mx-auto sm:p-10">
                 <h1 className="text-xl lg:text-4xl font-bold leading-none text-center mb-1 lg:mb-3">
                     Struktur Kepengurusan HMTIKA    
