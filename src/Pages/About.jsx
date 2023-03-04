@@ -6,17 +6,17 @@ const About = () => {
         <>
         <Header />
         <section 
-            className="container mt-8 mx-auto"
+            className="container mt-16 mb-16 mx-auto"
             data-aos="fade-in"
             data-aos-duration="1000"
             data-aos-delay="300"
             data-aos-easing="ease-in-out"
             >
-            <figure className="text-center">
+            <figure className="text-center mb-12">
                 <img 
                     src="./image/logo.webp" 
                     alt="" 
-                    className="w-[250px] h-[250px] object-cover inline-block"
+                    className="w-[170px] h-[170px] object-cover inline-block"
                 />
             </figure>
             <div className="mx-8">
